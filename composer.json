@@ -1,0 +1,22 @@
+{
+    "name": "genxoft/yii-swagger",
+    "description": "Yii2 swagger module",
+    "type": "library",
+    "require": {
+        "zircote/swagger-php": "^3.0",
+        "bower-asset/swagger-ui": "^3.20"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Rodin",
+            "email": "master@genx.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "genxoft\\swagger\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
