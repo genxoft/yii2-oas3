@@ -16,8 +16,16 @@ use yii\web\Response;
 
 class ViewAction extends Action
 {
+    /**
+     * @var string
+     * Open Api Swagger Json URL
+     */
     public $apiJsonUrl;
 
+    /**
+     * Action runner
+     * @return string
+     */
     public function run()
     {
         Yii::$app->getResponse()->format = Response::FORMAT_HTML;

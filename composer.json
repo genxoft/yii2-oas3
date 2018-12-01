@@ -1,8 +1,11 @@
 {
-    "name": "genxoft/yii-swagger",
-    "description": "Yii2 swagger module",
+    "name": "genxoft/yii2-oas3",
+    "description": "Yii2 Open Api Swagger 3 integration",
+    "keywords": ["open-api","swagger","rest", "restfull", "json", "yii2"],
     "type": "library",
     "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
         "zircote/swagger-php": "^3.0",
         "bower-asset/swagger-ui": "^3.20"
     },
@@ -10,6 +13,7 @@
     "authors": [
         {
             "name": "Simon Rodin",
+            "homepage": "http://rodin.red/",
             "email": "master@genx.ru"
         }
     ],
