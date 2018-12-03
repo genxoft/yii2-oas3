@@ -1,10 +1,17 @@
 <?php
+/**
+ * Yii2 php swagger module
+ *
+ * @author    Simon Rodin <master@genx.ru>
+ * @license   http://opensource.org/licenses/MIT MIT Public
+ * @link      https://github.com/genxoft/yii2-oas3
+ *
+ */
+
+/** @var string $apiJsonUrl */
 
 use genxoft\swagger\Assets;
-
 Assets::register($this);
-/** @var string $apiJsonUrl */
-/** @var array $oauthConfig */
 
 ?>
 <?php $this->beginPage() ?>
@@ -22,7 +29,7 @@ Assets::register($this);
 <script>
     window.onload = function() {
         // Begin Swagger UI call region
-        const ui = SwaggerUIBundle({
+        let ui = SwaggerUIBundle({
             url: '<?= $apiJsonUrl; ?>',
             dom_id: '#swagger-ui',
             deepLinking: true,
@@ -35,8 +42,6 @@ Assets::register($this);
             ],
             layout: "StandaloneLayout"
         });
-        // End Swagger UI call region
-
         window.ui = ui
     }
 </script>

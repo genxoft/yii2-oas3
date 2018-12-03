@@ -4,7 +4,7 @@
  *
  * @author    Simon Rodin <master@genx.ru>
  * @license   http://opensource.org/licenses/MIT MIT Public
- * @link      https://github.com/genxoft/yii2-swagger
+ * @link      https://github.com/genxoft/yii2-oas3
  *
  */
 
