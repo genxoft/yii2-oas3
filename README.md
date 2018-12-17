@@ -24,7 +24,7 @@ composer require genxoft/yii2-oas3 "*"
 or add to the require section of `composer.json`
 
 ```
-"genxoft/oas3" : "*"
+"genxoft/yii2-oas3" : "*"
 ```
 
 Integration
