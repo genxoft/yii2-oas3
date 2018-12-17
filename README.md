@@ -18,7 +18,7 @@ php composer.phar require genxoft/yii2-oas3 "*"
 or
 
 ```bash
-composer require genxoft/oas3 "*"
+composer require genxoft/yii2-oas3 "*"
 ```
 
 or add to the require section of `composer.json`
