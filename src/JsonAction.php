@@ -23,7 +23,11 @@ class JsonAction extends Action
     public $dirs;
 
     /**
-     * @var array The options passed to `OpenApi`, Please refer the `\OpenApi\scan` function for more information.
+     * @var array
+     *   exclude: string|array $exclude The directory(s) or filename(s) to exclude (as absolute or relative paths)
+     *   analyser: defaults to StaticAnalyser
+     *   analysis: defaults to a new Analysis
+     *   processors: defaults to the registered processors in Analysis
      */
     public $scanOptions = [];
 

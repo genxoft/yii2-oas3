@@ -5,6 +5,7 @@
     "type": "library",
     "require": {
         "php": ">=7.1",
+        "yiisoft/yii2": "~2.0",
         "ext-json": "*",
         "zircote/swagger-php": "^3.0",
         "bower-asset/swagger-ui": "^3.20"
