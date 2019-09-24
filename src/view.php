@@ -23,7 +23,7 @@ Assets::register($this);
     <?php $this->head() ?>
 </head>
 
-<body>
+<body style="margin:0;">
 <?php $this->beginBody() ?>
 <div id="swagger-ui"></div>
 <script>
